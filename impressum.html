@@ -1,8 +1,193 @@
-<!doctype html>
-<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Impressum</title><link rel="stylesheet" href="style.css"></head>
-<body><main class="section container"><p class="eyebrow">Rechtliches</p><h1>Impressum</h1>
-<p><strong>Förderverein der Kita Weyertal e. V.</strong><br>c/o Städtische Kita Weyertal<br>Weyertal 113<br>50931 Köln</p>
-<p>Vertreten durch den Vorstand:<br>Eva Brand<br>Saskia Nehring<br>Magdalena Hagemann<br></p>
-<p>E-Mail: foerdervereinweyertal@mail.de</p>
-<p><strong>Haftungshinweis:</strong></p>
-<p><a href="index.html">← Zurück zur Website</a></p></main></body></html>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Impressum | Förderverein Kita Weyertal</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            background-color: #f7f5f0;
+            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+        }
+
+        .impressum {
+            max-width: 760px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 45px 50px;
+            border-radius: 16px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        h1 {
+            margin: 0 0 10px;
+            font-size: 2.2rem;
+            color: #333;
+        }
+
+        .untertitel {
+            margin: 0 0 35px;
+            color: #777;
+            font-size: 1rem;
+        }
+
+        .bereich {
+            padding: 25px 0;
+            border-top: 1px solid #e5e2dc;
+        }
+
+        .bereich:first-of-type {
+            border-top: none;
+            padding-top: 0;
+        }
+
+        h2 {
+            margin: 0 0 15px;
+            font-size: 1.25rem;
+            color: #444;
+        }
+
+        p {
+            margin: 0 0 8px;
+        }
+
+        .adresse {
+            line-height: 1.8;
+        }
+
+        .vorstand {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .vorstand li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #5b7f6b;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .zurueck {
+            margin-top: 30px;
+            padding-top: 25px;
+            border-top: 1px solid #e5e2dc;
+        }
+
+        .zurueck a {
+            display: inline-block;
+            padding: 10px 18px;
+            background-color: #5b7f6b;
+            color: white;
+            border-radius: 8px;
+            transition: background-color 0.2s ease;
+        }
+
+        .zurueck a:hover {
+            background-color: #476554;
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 12px;
+            }
+
+            .impressum {
+                padding: 30px 25px;
+                border-radius: 12px;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="impressum">
+
+        <h1>Impressum</h1>
+        <p class="untertitel">Angaben gemäß § 5 DDG</p>
+
+        <section class="bereich">
+            <h2>Angaben zum Verein</h2>
+
+            <p class="adresse">
+                <strong>Förderverein der Kita Weyertal e. V.</strong><br>
+                c/o Städtische Kita Weyertal<br>
+                Weyertal 113<br>
+                50931 Köln<br>
+                Deutschland
+            </p>
+        </section>
+
+        <section class="bereich">
+            <h2>Vertreten durch den Vorstand</h2>
+
+            <ul class="vorstand">
+                <li>Eva Brand</li>
+                <li>Saskia Nehring</li>
+                <li>Magdalena Hagemann</li>
+            </ul>
+        </section>
+
+        <section class="bereich">
+            <h2>Kontakt</h2>
+
+            <p>
+                <strong>E-Mail:</strong>
+                <a href="mailto:foerdervereinweyertal@mail.de">
+                    foerdervereinweyertal@mail.de
+                </a>
+            </p>
+
+            <p>
+                <strong>Telefon:</strong>
+                <a href="tel:+491785158232">
+                    0178 5158232
+                </a>
+                <span>(Eva)</span>
+            </p>
+        </section>
+
+        <section class="bereich">
+            <h2>Registereintrag</h2>
+
+            <p>
+                Eintragung im Vereinsregister.
+            </p>
+
+            <p>
+                <strong>Vereinsregister:</strong> 11154<br>
+                <strong>Registergericht:</strong> Amtsgericht Köln
+            </p>
+        </section>
+
+        <div class="zurueck">
+            <a href="index.html">← Zurück zur Website</a>
+        </div>
+
+    </main>
+
+</body>
+</html>
